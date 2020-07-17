@@ -1,6 +1,7 @@
 steps:
 
     # build only the first stage, so we can run tests with it
+    # Teste com novo deploy
   - id: build-test-image
     dir: hello-cloudbuild
     name: gcr.io/cloud-builders/docker
